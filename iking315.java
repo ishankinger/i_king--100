@@ -2,7 +2,7 @@
 
  class LL{                                               // MAIN CLASS 
     
-    Node head;                                           // NEW TYPE OF DATATYPE
+    Node head;                                           // NEW TYPE OF DATAtYPE
     private int size;                                    // DEFINING A VARIABLE WITH ACCESS MODIFIER PRIVATE
     
     LL(){                                                // CONSTRUCTOR OF THE CLASS
@@ -52,7 +52,7 @@
         }
     public void deleteFirst(){                            // FUNCTION TO DELETE FIRST NODE
             if(head==null){                                       
-             System.out.println("the list is empty");   // EMPTY AS NO ELEMENT SO WHAT TO DELETE
+             System.out.println("the list is empty");     // EMPTY AS NO ELEMENT SO WHAT TO DELETE
                 return;
             }
             size--;                                        // IF WE DONOT RETURN FROM ABOVE THEN WE HAVE TO DELETE ONE NODE THATS WHY
